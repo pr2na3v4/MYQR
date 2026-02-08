@@ -4,7 +4,7 @@ import './App.css';
 // Constants for better maintainability
 const API_ENDPOINT = 'https://myqr-backend-2q84.onrender.com';
 const INITIAL_FORM_DATA = {
-  shop_name: 'My Awesome Shop',
+  shop_name: 'My Shop',
   upi_id: 'payment@bank',
   tagline: 'Quality you can trust',
   primary_color: '#646cff',
