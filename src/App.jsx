@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import './App.css';
 
 // Constants for better maintainability
-const API_ENDPOINT = 'https://myqr-backend-2q84.onrender.com';
+const API_ENDPOINT = 'https://myqr-backend-2q84.onrender.com/generate-pdf';
 const INITIAL_FORM_DATA = {
   shop_name: 'My Shop',
   upi_id: 'payment@bank',
