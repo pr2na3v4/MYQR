@@ -620,3 +620,47 @@ button:disabled {
   outline: 2px solid var(--primary);
   outline-offset: 2px;
 }
+
+/* Button Loader Styles */
+.submit-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 45px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn.loading {
+  background-color: #cccccc !important;
+  color: transparent !important;
+}
+
+.loader {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  position: absolute;
+}
+
+@keyframes rotation {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* SweetAlert Customization */
+.swal2-popup {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+  border-radius: 20px !important;
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #646cff !important;
+  border-radius: 10px !important;
+}
