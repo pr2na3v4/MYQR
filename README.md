@@ -168,8 +168,7 @@ To help local businesses look more professional and build their own digital iden
 Aspiring Tech Entrepreneur
 Building Digital Assets 🚀
 
-LinkedIn: (Add your link)
-GitHub: (Add your link)
+GitHub: (https://github.com/pr2na3v4/)
 
 ---
 
