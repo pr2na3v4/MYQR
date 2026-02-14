@@ -226,7 +226,7 @@ function App() {
           <div className="nav-logo">MyQR</div>
           <div className="nav-links">
             <Link to="/" className="nav-item">Generator</Link>
-            <Link to="/about" className="nav-item">Abouts Us</Link>
+            <Link to="/about" className="nav-item">About Us</Link>
           </div>
         </nav>
 
