@@ -1,0 +1,42 @@
+/* PayButton.css */
+.pay-now-btn {
+    width: 100%;
+    background-color: var(--brand); /* Dynamic brand color */
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 18px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 10px 25px -5px rgba(var(--brand-rgb, 100, 108, 255), 0.4);
+    margin-bottom: 10px;
+}
+
+.pay-now-btn .pay-icon {
+    font-size: 1.4rem;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.pay-now-btn:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+    box-shadow: 0 15px 30px -5px rgba(var(--brand-rgb, 100, 108, 255), 0.5);
+}
+
+.pay-now-btn:active {
+    transform: scale(0.97);
+}
+
+/* Mobile responsive font sizing */
+@media (max-width: 380px) {
+    .pay-now-btn {
+        padding: 16px;
+        font-size: 1.1rem;
+    }
+}
