@@ -9,7 +9,7 @@ const LandingPage = () => {
     const [shop, setShop] = useState(null);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/api/shops/landing/${slug}`)
+        fetch(`https://myqr-backend-node.onrender.com/api/shops/landing/${slug}`)
             .then(res => res.json())
             .then(data => setShop(data))
             .catch(err => console.error("Load error", err));
